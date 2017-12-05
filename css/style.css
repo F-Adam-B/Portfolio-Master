@@ -1,7 +1,28 @@
+body {
+    background-size: cover;
+    background: center;
+}
+
+img {
+    width: 100%;
+}
+
+.caption {
+    bottom: 44rem;
+    position: absolute;
+    left: 19rem;
+    color: #FFF;
+}
+
+h1 {
+    font-size: 4vw !important;
+    text-align: center;
+}
+
 .navbar {
     margin-bottom: 0;
     border-radius: 0;
-    background-color: black;
+    background-color: rgb(39, 39, 46);
     color: #FFF;
     padding: 1% 0;
     font-size: 1.2em;
@@ -17,7 +38,7 @@
 .navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, 
 .navbar-inverse .navbar-nav .active a:hover {
     color: #FFF;
-    background-color: black;
+    background-color: rgb(39, 39, 46);;
 }
 
 .navbar-inverse .navbar-nav {
@@ -38,7 +59,8 @@
 }
 
 .btn:hover {
-    background-color: rgb(142, 145, 187);
+    background-color: #337ab7;
+    color: #FFF;
 }
 
 @media (max-width: 600px) {
@@ -50,6 +72,24 @@
     }
     h2 {
         font-size: 1.7em;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .caption {
+        bottom: 64rem;
+        position: absolute;
+        left: 17rem;
+        right: 19rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .caption {
+        bottom: 55rem;
+        position: absolute;
+        left: 16rem;
     }
 }
 
@@ -63,7 +103,7 @@
 }
 
 footer {
-    width: 100%;
+    width: 100% !important;
     background-color: rgb(39, 39, 46);
     padding: 3%;
     color: rgb(255, 255, 255);
