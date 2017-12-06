@@ -63,6 +63,15 @@ h1 {
     color: #FFF;
 }
 
+@media (max-width: 329px) {
+    .caption {
+        bottom: 60rem;
+        position: absolute;
+        left: 13rem;
+        right: 13rem;
+    }
+}
+
 @media (max-width: 600px) {
     .carousel-caption {
         display: none;
