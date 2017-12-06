@@ -45,10 +45,14 @@ h1 {
     color: #d5d5d5;
 }
 
-.carousel-caption {
-    top: 50%;
-    transform: translateY(-50%);
-    text-transform: uppercase;
+.projectLink {
+    border: 1px solid black;
+    padding-bottom: 10px;
+    margin: 10px;
+}
+
+.project-img {
+    width: 33%;
 }
 
 .btn {
@@ -73,9 +77,6 @@ h1 {
 }
 
 @media (max-width: 600px) {
-    .carousel-caption {
-        display: none;
-    }
     #icon {
         max-width: 150px;
     }
@@ -107,7 +108,8 @@ h1 {
 }
 
 #icon {
-    max-width: 200px;
+    height: 200px;
+    width: 200px;
     margin: 1% auto;
 }
 
