@@ -48,11 +48,12 @@ h1 {
 .projectLink {
     border: 1px solid black;
     padding-bottom: 10px;
-    margin: 10px;
+    margin: 50px 10px;
 }
 
 .project-img {
-    width: 33%;
+    width: 300px;
+    height: 200x
 }
 
 .btn {
