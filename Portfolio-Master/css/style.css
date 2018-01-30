@@ -22,12 +22,14 @@ h1 {
 .navbar {
     margin-bottom: 0;
     border-radius: 0;
-    background-color: rgb(39, 39, 46);
+    background-color: #001a2a;
     color: #FFF;
     padding: 1% 0;
     font-size: 1.2em;
     border: 0;
 }
+
+
 
 .navbar-brand {
     float: left;
@@ -110,13 +112,13 @@ h1 {
 
 #icon {
     height: 200px;
-    width: 200px;
+    width: 300px;
     margin: 1% auto;
 }
 
 footer {
     width: 100% !important;
-    background-color: rgb(39, 39, 46);
+    background-color: #001a2a;
     padding: 3%;
     color: rgb(255, 255, 255);
 }
