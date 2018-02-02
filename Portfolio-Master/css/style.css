@@ -1,10 +1,15 @@
 body {
-    background-size: cover;
-    background: center;
+   
 }
 
 img {
-    width: 100%;
+    max-width: 100%;
+}
+
+.backgroundCaption {
+    background-position: center center;
+    background-size: cover;
+    max-width: 100%;
 }
 
 .caption {
@@ -14,37 +19,24 @@ img {
     color: #FFF;
 }
 
-h1 {
-    font-size: 4vw !important;
+.projectsContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.projectContainer{
+    max-width: 300px;
+    /* display: flex; */
+    /* flex: 1 50%; */
+}
+
+.projectTitle, .personalDetailsTitle{
     text-align: center;
 }
 
-.navbar {
-    margin-bottom: 0;
-    border-radius: 0;
-    background-color: #001a2a;
-    color: #FFF;
-    padding: 1% 0;
-    font-size: 1.2em;
-    border: 0;
-}
-
-
-
-.navbar-brand {
-    float: left;
-    min-height: 55px;
-    padding: 0 15px 5px;
-}
-
-.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, 
-.navbar-inverse .navbar-nav .active a:hover {
-    color: #FFF;
-    background-color: rgb(39, 39, 46);;
-}
-
-.navbar-inverse .navbar-nav {
-    color: #d5d5d5;
+h1 {
+    font-size: 4vw !important;
+    text-align: center;
 }
 
 .projectLink {
@@ -104,10 +96,6 @@ h1 {
         position: absolute;
         left: 16rem;
     }
-}
-
-.container {
-    margin: 4% auto;
 }
 
 #icon {
