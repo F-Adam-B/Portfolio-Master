@@ -1,46 +1,81 @@
 body {
-   
+   background: #efeff1;
 }
 
-img {
+.backgroundImg {
     max-width: 100%;
 }
 
-.backgroundCaption {
-    background-position: center center;
-    background-size: cover;
-    max-width: 100%;
+
+.backgroundContainer{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: #efeff1;
+    font-size: 25px;
+    /* display: flex; */
 }
 
-.caption {
-    bottom: 44rem;
+.fullName {
     position: absolute;
-    left: 19rem;
-    color: #FFF;
+    bottom: 420px;
+    left: 172px;
+}
+
+svg{
+    max-width: 50px;
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    stroke: #efeff1;
+    stroke-width: 3;
+}
+
+
+.backgroundTitle {
+    position: absolute;
+    bottom: 250px;
+    right: 50px;
+}
+
+.personalDetailsContainer {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.personalDetailsCopy, .personalImage{
+    max-width: 50%;
+}
+
+.personalDetailsImg{
+    text-align: center;
+}
+
+.personalImage{
+    min-width: 300px;
+    min-height: 300px;
+
 }
 
 .projectsContainer{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 .projectContainer{
-    max-width: 300px;
-    /* display: flex; */
-    /* flex: 1 50%; */
-}
+    text-align: center;
+    padding-bottom: 20px;
+}   
 
 .projectTitle, .personalDetailsTitle{
     text-align: center;
-}
-
-h1 {
-    font-size: 4vw !important;
-    text-align: center;
+    color: #001a2a;
 }
 
 .projectLink {
-    border: 1px solid black;
+    /* border: 1px solid blacks; */
     padding-bottom: 10px;
     margin: 50px 10px;
 }
@@ -50,16 +85,39 @@ h1 {
     height: 200x
 }
 
-.btn {
-    font-size: 18px;
-    color: black;
+.projectCopy{
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #001a2a;
+}
+
+button {
+    font-size: 10px;
+    color: #001a2a;
     padding: 12px 22px;
     background: white;
 }
 
-.btn:hover {
-    background-color: #337ab7;
-    color: #FFF;
+button:hover {
+    background-color: #001a2a;
+    color: #efeff1;;
+}
+
+footer {
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    background-color: #001a2a;
+    padding: 3%;
+    color: #efeff1;
+}
+
+.socialIcon {
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #efeff1;
 }
 
 @media (max-width: 329px) {
@@ -104,13 +162,4 @@ h1 {
     margin: 1% auto;
 }
 
-footer {
-    width: 100% !important;
-    background-color: #001a2a;
-    padding: 3%;
-    color: rgb(255, 255, 255);
-}
 
-.fa {
-    padding: 10px;
-}
