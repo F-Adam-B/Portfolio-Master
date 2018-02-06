@@ -25,19 +25,57 @@ body {
 svg{
     max-width: 50px;
     position: absolute;
-    top: 54%;
+    top: 57.5%;
     left: 50%;
     transform: translate(-50%, -50%);
     stroke: #efeff1;
     stroke-width: 3;
 }
 
-
 .backgroundTitle {
     position: absolute;
     bottom: 250px;
     right: 50px;
 }
+
+@media (max-width: 1200px){
+    svg {
+        position: absolute;
+        top: 53%
+    }
+    .fullName{
+        position: absolute;
+        bottom: 400px;
+        left: 150px;
+    }
+    .backgroundTitle{
+        position: absolute;
+        bottom: 222px;
+        right: 44px;
+    }
+}
+
+@media (max-width: 1024px){
+    svg {
+        position: absolute;
+        top: 50.5%
+    }
+    .fullName{
+        position: absolute;
+        bottom: 340px;
+        left: 120px;
+        font-size: 22px;
+    }
+    .backgroundTitle{
+        position: absolute;
+        bottom: 188px;
+        right: 25px;
+        font-size: 22px;
+    }
+}
+
+
+
 
 .personalDetailsContainer {
     display: flex;
@@ -120,14 +158,6 @@ footer {
     color: #efeff1;
 }
 
-@media (max-width: 329px) {
-    .caption {
-        bottom: 60rem;
-        position: absolute;
-        left: 13rem;
-        right: 13rem;
-    }
-}
 
 @media (max-width: 600px) {
     #icon {
