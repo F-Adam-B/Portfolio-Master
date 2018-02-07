@@ -38,49 +38,15 @@ svg{
     right: 50px;
 }
 
-@media (max-width: 1200px){
-    svg {
-        position: absolute;
-        top: 53%
-    }
-    .fullName{
-        position: absolute;
-        bottom: 400px;
-        left: 150px;
-    }
-    .backgroundTitle{
-        position: absolute;
-        bottom: 222px;
-        right: 44px;
-    }
+.projectCopy{
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #001a2a;
 }
-
-@media (max-width: 1024px){
-    svg {
-        position: absolute;
-        top: 50.5%
-    }
-    .fullName{
-        position: absolute;
-        bottom: 340px;
-        left: 120px;
-        font-size: 22px;
-    }
-    .backgroundTitle{
-        position: absolute;
-        bottom: 188px;
-        right: 25px;
-        font-size: 22px;
-    }
-}
-
-
-
 
 .personalDetailsContainer {
     display: flex;
     justify-content: space-around;
-
 }
 
 .personalDetailsCopy, .personalImage{
@@ -123,11 +89,6 @@ svg{
     height: 200x
 }
 
-.projectCopy{
-    padding-left: 10px;
-    padding-right: 10px;
-    color: #001a2a;
-}
 
 button {
     font-size: 10px;
@@ -158,38 +119,127 @@ footer {
     color: #efeff1;
 }
 
-
-@media (max-width: 600px) {
-    #icon {
-        max-width: 150px;
-    }
-    h2 {
-        font-size: 1.7em;
-    }
-    
-}
-
-@media (max-width: 768px) {
-    .caption {
-        bottom: 64rem;
+@media only screen and (max-width: 1200px){
+    svg {
         position: absolute;
-        left: 17rem;
-        right: 19rem;
+        top: 53%
     }
-}
-
-@media (max-width: 1024px) {
-    .caption {
-        bottom: 55rem;
+    .fullName{
         position: absolute;
-        left: 16rem;
+        bottom: 400px;
+        left: 150px;
+    }
+    .backgroundTitle{
+        position: absolute;
+        bottom: 222px;
+        right: 44px;
     }
 }
 
-#icon {
-    height: 200px;
-    width: 300px;
-    margin: 1% auto;
+@media only screen and (max-width: 1024px){
+    svg {
+        position: absolute;
+        top: 50.5%
+    }
+    .fullName{
+        position: absolute;
+        bottom: 340px;
+        left: 120px;
+        font-size: 22px;
+    }
+    .backgroundTitle{
+        position: absolute;
+        bottom: 188px;
+        right: 25px;
+        font-size: 22px;
+    }
+    .projectsContainer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
 
+@media only screen and (max-width: 768px){
+    svg {
+        position: absolute;
+        top: 45%;
+    }
+    .fullName {
+        position: absolute;
+        bottom: 259px;
+        left: 100px;
+        font-size: 15px;
+    }
+    .backgroundTitle {
+        position: absolute;
+        bottom: 145px;
+        right: 45px;
+        font-size: 15px;
+    }
+    .projectCopy {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    svg {
+        position: absolute;
+        top: 32%;
+    }
+    .fullName {
+        position: absolute;
+        bottom: 160px;
+        left: 50px;
+        font-size: 9px;
+    }
+    .backgroundTitle {
+        position: absolute;
+        bottom: 90px;
+        right: 35px;
+        font-size: 9px;
+    }
+    .projectCopy, .personalDetailsCopy {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .personalDetailsContainer {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .personalDetailsCopy {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    svg {
+        position: absolute;
+        top: 18%;
+    }
+    .fullName {
+        position: absolute;
+        bottom: 110px;
+        left: 15px;
+        font-size: 7px;
+    }
+    .backgroundTitle {
+        position: absolute;
+        bottom: 56px;
+        right: 15px;
+        font-size: 7px;
+    }
+    .projectCopy, .personalDetailsCopy {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .personalDetailsContainer {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .personalDetailsCopy{
+        max-width: 100%;
+    }
+}
 
