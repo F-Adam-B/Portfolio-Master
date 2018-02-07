@@ -119,6 +119,55 @@ footer {
     color: #efeff1;
 }
 
+@media only screen and (max-width: 1845px){
+    svg {
+        position: absolute;
+        top: 57.5%;
+    }
+    .fullName{
+        position: absolute;
+        bottom: 520px;
+        left: 220px;
+        font-size: 30px;
+    }
+    .backgroundTitle{
+        position: absolute;
+        bottom: 360px;
+        right: 150px;
+        font-size: 30px;
+    }
+    .projectCopy, .personalDetailsCopy, .projectDescription {
+        font-size: 28px;
+    }
+    .personalDetailsTitle, .projectTitle {
+        font-size: 35px;
+    }
+
+}
+
+@media only screen and (max-width: 1600px){
+    svg {
+        position: absolute;
+        top: 56%
+    }
+    .fullName{
+        position: absolute;
+        bottom: 490px;
+        left: 220px;
+    }
+    .backgroundTitle{
+        position: absolute;
+        bottom: 320px;
+        right: 120px;
+    }
+    .projectCopy, .personalDetailsCopy {
+        font-size: 22px;
+    }
+    .personalDetailsTitle, .projectTitle {
+        font-size: 30px;
+    }
+
+}
 
 @media only screen and (max-width: 1290px){
     svg {
