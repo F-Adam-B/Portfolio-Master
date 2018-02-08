@@ -64,22 +64,33 @@ svg{
 }
 
 .projectsContainer{
-    display: flex;
-    /* justify-content: center; */
+    /* display: flex; */
+    padding-bottom: 20px;
 }
 
 .projectContainer{
-    text-align: center;
+    /* text-align: center; */
     padding-bottom: 20px;
 }   
 
-.projectTitle, .personalDetailsTitle{
+.project1, .project2, .project3{
+    display: flex;
+}
+
+.project-img{
+    flex: 1
+}
+
+#projectTitleRight{
+    text-align: right;
+}
+
+.projectsTitle, .personalDetailsTitle, .projectCopy{
     text-align: center;
     color: #001a2a;
 }
 
 .projectLink {
-    /* border: 1px solid blacks; */
     padding-bottom: 10px;
     margin: 50px 10px;
 }
@@ -136,10 +147,10 @@ footer {
         right: 150px;
         font-size: 30px;
     }
-    .projectCopy, .personalDetailsCopy, .projectDescription {
+    .projectCopy, .personalDetailsCopy {
         font-size: 28px;
     }
-    .personalDetailsTitle, .projectTitle {
+    .personalDetailsTitle, .projectsTitle {
         font-size: 35px;
     }
 
@@ -163,13 +174,13 @@ footer {
     .projectCopy, .personalDetailsCopy {
         font-size: 22px;
     }
-    .personalDetailsTitle, .projectTitle {
+    .personalDetailsTitle, .projectsTitle {
         font-size: 30px;
     }
 
 }
 
-@media only screen and (max-width: 1290px){
+@media only screen and (max-width: 1310px){
     svg {
         position: absolute;
         top: 54%
@@ -178,11 +189,13 @@ footer {
         position: absolute;
         bottom: 425px;
         left: 172px;
+        font-size: 23px
     }
     .backgroundTitle{
         position: absolute;
-        bottom: 240px;
-        right: 50px;
+        bottom: 250px;
+        right: 58px;
+        font-size: 23px;
     }
 }
 
