@@ -6,7 +6,6 @@ body {
     max-width: 100%;
 }
 
-
 .backgroundContainer{
     position: relative;
     width: 100%;
@@ -38,6 +37,10 @@ svg{
     right: 50px;
 }
 
+.projectImg{
+
+}
+
 .projectCopy{
     padding-left: 10px;
     padding-right: 10px;
@@ -49,7 +52,7 @@ svg{
     justify-content: space-around;
 }
 
-.personalDetailsCopy, .personalImage{
+.personalDetailsCopy{
     max-width: 50%;
 }
 
@@ -60,25 +63,15 @@ svg{
 .personalImage{
     min-width: 300px;
     min-height: 300px;
-
 }
 
-.projectsContainer{
-    /* display: flex; */
+.projectsContainer, .projectContainer{
     padding-bottom: 20px;
 }
 
-.projectContainer{
-    /* text-align: center; */
-    padding-bottom: 20px;
-}   
 
 .project1, .project2, .project3{
     display: flex;
-}
-
-.project-img{
-    flex: 1
 }
 
 #projectTitleRight{
@@ -95,9 +88,9 @@ svg{
     margin: 50px 10px;
 }
 
-.project-img {
-    width: 300px;
-    height: 200px
+.projectImg {
+    width: 500px;
+    height: 400px
 }
 
 
