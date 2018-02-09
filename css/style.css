@@ -247,13 +247,12 @@ footer {
     }
     .backgroundTitle {
         position: absolute;
-        bottom: 145px;
-        right: 45px;
+        bottom: 149px;
+        right: 50px;
         font-size: 15px;
     }
-    .projectCopy {
-        padding-left: 200px;
-        padding-right: 200px;
+    .projectCopyContainer, .projectImg {
+        max-width: 50%;
     }
 }
 
