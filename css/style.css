@@ -52,6 +52,7 @@ svg{
     justify-content: space-around;
 }
 
+
 .personalDetailsCopy{
     max-width: 50%;
 }
@@ -212,7 +213,7 @@ footer {
 @media only screen and (max-width: 1024px){
     svg {
         position: absolute;
-        top: 50.5%
+        top: 50.5%;
     }
     .fullName{
         position: absolute;
@@ -290,17 +291,18 @@ footer {
     svg {
         position: absolute;
         top: 18%;
+        left: 164px;
     }
     .fullName {
         position: absolute;
-        bottom: 110px;
-        left: 15px;
+        bottom: 98px;
+        left: 30px;
         font-size: 7px;
     }
     .backgroundTitle {
         position: absolute;
         bottom: 56px;
-        right: 15px;
+        right: 5px;
         font-size: 7px;
     }
     .projectCopy, .personalDetailsCopy {
@@ -311,8 +313,20 @@ footer {
         display: flex;
         flex-wrap: wrap;
     }
-    .personalDetailsCopy{
+    .personalDetailsCopy, .projectImg{
         max-width: 100%;
+    }
+    .project1, .project2, .project3{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .project2{
+        flex-direction: column-reverse;
+    }
+    .projectTitle{
+        display: flex;
+        justify-content: center;
     }
 }
 
