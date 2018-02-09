@@ -6,6 +6,15 @@ body {
     max-width: 100%;
 }
 
+a{
+    text-decoration: none;
+    color: #001a2a;
+}
+
+a:hover {
+    color: #efeff1;
+}
+
 .backgroundContainer{
     position: relative;
     width: 100%;
@@ -89,15 +98,16 @@ svg{
     height: 400px
 }
 
-button {
-    font-size: 10px;
-    color: #001a2a;
+.button {
+    font-size: 1em;
+    text-decoration-color: #551108;
+    /* color: #001a2a; */
     padding: 12px 22px;
     background: white;
     transition: all 0.2s;
 }
 
-button:hover {
+.button:hover {
     background-color: #001a2a;
     color: #efeff1;;
 }
@@ -160,11 +170,32 @@ footer {
         bottom: 320px;
         right: 120px;
     }
+    .personalImage{
+        padding-top: 25px;
+        max-width: 40%
+    }
+    .projectTitle{
+        display: flex;
+        justify-content: center;
+        font-size: 1.6em;
+    }
+    .personalDetailsCopy, .projectCopy {
+        max-width: 100%;
+        font-size: 1.3em;
+        padding-right: 10px;
+    }
+    .projectImg{
+        max-width: 40%;
+        padding-top: 20px;
+    }
     .projectCopy, .personalDetailsCopy {
         font-size: 1;
     }
     .personalDetailsTitle, .projectsHeader {
         font-size: 1.7em;
+    }
+    .projectBtn{
+        text-align: center;
     }
 
 }
@@ -176,15 +207,15 @@ footer {
     }
     .fullName{
         position: absolute;
-        bottom: 425px;
-        left: 172px;
-        font-size: 23px
+        bottom: 415px;
+        left: 182px;
+        font-size: 1em;
     }
     .backgroundTitle{
         position: absolute;
-        bottom: 250px;
+        bottom: 240px;
         right: 58px;
-        font-size: 23px;
+        font-size: 1em;
     }
 }
 
@@ -213,23 +244,51 @@ footer {
     .fullName{
         position: absolute;
         bottom: 340px;
-        left: 120px;
-        font-size: 22px;
+        left: 135px;
+        font-size: .9em;
     }
     .backgroundTitle{
         position: absolute;
         bottom: 188px;
         right: 25px;
-        font-size: 22px;
+        font-size: .9em;
     }
     .projectsContainer{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
     }
+    .personalImage{
+        padding-top: 25px;
+        max-width: 40%
+    }
+
+    .projectTitle{
+        display: flex;
+        justify-content: center;
+        font-size: 1.6em;
+    }
+
+    .personalDetailsCopy, .projectCopy {
+        max-width: 100%;
+        font-size: 1.3em;
+        padding-right: 10px;
+    }
+
+    .projectImg{
+        max-width: 40%;
+    }
+
+    .projectCopyContainer {
+        max-width: 100%;
+        justify-content: center;
+    }
+    .projectBtn{
+        text-align: center;
+    }
 }
 
-@media only screen and (min-width: 768px){
+@media only screen and (max-width: 768px){
     svg {
         position: absolute;
         top: 46%;
