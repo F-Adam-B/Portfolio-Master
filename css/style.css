@@ -52,18 +52,22 @@ svg{
 }
 
 .projectCopy{
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
     color: #001a2a;
 }
 
 .personalDetailsContainer {
     display: flex;
     justify-content: space-around;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .personalDetailsCopy{
     max-width: 50%;
+    padding-right: 5%;
+    padding-left: 5%;
 }
 
 .personalDetailsImg{
@@ -77,20 +81,49 @@ svg{
 
 .projectsContainer, .projectContainer{
     padding-bottom: 20px;
+    max-width: 100%;
 }
 
 
-.project1, .project2, .project3{
+.project1, .project3{
     display: flex;
+    margin-left: 5%;
+    margin-right: 3%;
+}
+
+.project2 {
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.projectTitle{
+    color: #001a2a
+}    aside{
+    padding-left: 3px;
+    padding-right: 3px;
+    margin-bottom: 10px;
+    border-right:1px solid #001a2a;
+}
+.iconTitleContainer{
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #projectTitleRight{
     text-align: right;
+    color: #001a2a
 }
 
-.projectsHeader, .personalDetailsTitle, .projectCopy{
+.projectsHeader, .personalDetailsTitle{
     text-align: center;
+    margin-bottom: -10px;
     color: #001a2a;
+}
+
+.projectCopy{
+    text-align: left;
 }
 
 .projectLink {
@@ -99,8 +132,24 @@ svg{
 }
 
 .projectImg {
-    width: 500px;
-    height: 400px
+    width: 3ems;
+    height: 2ems;
+}
+
+.devIconsContainer, .iconTitleContainer{
+    display: flex;
+}
+.iconSingle {
+    flex-direction: column;
+    width: 20px;
+    height: 20px;
+}
+
+aside{
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #001a2a;
+    border-right:1px solid #001a2a;
 }
 
 footer {
@@ -143,6 +192,17 @@ footer {
     .personalDetailsTitle, .projectsHeader {
         font-size: 35px;
     }
+    aside{
+        padding-left: 3px;
+        padding-right: 3px;
+        margin-bottom: 10px;
+        border-right:1px solid #001a2a;
+    }
+    .iconTitleContainer{
+        padding-bottom: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 
 }
 
@@ -173,20 +233,30 @@ footer {
     .personalDetailsCopy, .projectCopy {
         max-width: 100%;
         font-size: 1.3em;
-        padding-right: 10px;
     }
     .projectImg{
-        max-width: 40%;
+        max-width: 10ems;
         padding-top: 20px;
     }
     .projectCopy, .personalDetailsCopy {
         font-size: 1;
     }
     .personalDetailsTitle, .projectsHeader {
-        font-size: 1.7em;
+        font-size: 1.8em;
     }
     .projectBtn{
         text-align: center;
+    }
+    aside{
+        padding-left: 3px;
+        padding-right: 3px;
+        margin-bottom: 10px;
+        border-right:1px solid #001a2a;
+    }
+    .iconTitleContainer{
+        padding-bottom: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
 }
@@ -208,6 +278,32 @@ footer {
         right: 58px;
         font-size: 1em;
     }
+
+    .personalDetailsContainer{
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    .projectTitle{
+        margin-bottom: 10px;
+        margin-top: 50px;
+    }
+    aside{
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-bottom: 10px;
+        color: #001a2a;
+        border-right:1px solid #001a2a;
+    }
+
+    .projectBtn{
+        padding-top: 50px;
+    }
+    .iconTitleContainer{
+        padding-bottom: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
 
 @media only screen and (max-width: 1200px){
@@ -224,6 +320,17 @@ footer {
         position: absolute;
         bottom: 222px;
         right: 44px;
+    }
+    aside{
+        padding-left: 3px;
+        padding-right: 3px;
+        margin-bottom: 10px;
+        border-right:1px solid #001a2a;
+    }
+    .iconTitleContainer{
+        padding-bottom: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
 
@@ -251,7 +358,7 @@ footer {
     }
     .personalImage{
         padding-top: 25px;
-        max-width: 40%
+        max-width: 40%;
     }
 
     .projectTitle{
@@ -266,16 +373,23 @@ footer {
         padding-right: 10px;
     }
 
-    .projectImg{
-        max-width: 40%;
-    }
-
     .projectCopyContainer {
         max-width: 100%;
         justify-content: center;
     }
     .projectBtn{
         text-align: center;
+    }
+    aside{
+        padding-left: 3px;
+        padding-right: 3px;
+        margin-bottom: 10px;
+        border-right:1px solid #001a2a;
+    }
+    .iconTitleContainer{
+        padding-bottom: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
 
@@ -297,15 +411,26 @@ footer {
         font-size: .65em;
     }
 
+    .personalDetailsContainer {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .personalDetailsTitle, .projectsHeader{
+        font-size: 1.6em;
+    }
+
     .personalImage{
         padding-top: 25px;
-        max-width: 40%
+        max-width: 40%;
     }
 
     .projectTitle{
         display: flex;
         justify-content: center;
-        font-size: 1.6em;
+        font-size: 1.3em;
     }
 
     .personalDetailsCopy, .projectCopy {
@@ -315,15 +440,29 @@ footer {
     }
 
     .projectImg{
-        max-width: 40%;
+        max-width: 300px;
+        height: 250px;
     }
 
     .projectCopyContainer {
         max-width: 100%;
         justify-content: center;
     }
+    
     .projectBtn{
         text-align: center;
+    }
+
+    aside{
+        padding-left: 3px;
+        padding-right: 3px;
+        margin-bottom: 10px;
+        border-right:1px solid #001a2a;
+    }
+    .iconTitleContainer{
+        padding-bottom: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
 
@@ -352,26 +491,48 @@ footer {
     .personalDetailsContainer {
         display: flex;
         flex-wrap: wrap;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     .personalDetailsTitle, projectsHeader{
         font-size: 1.5em;
     }
     .personalDetailsCopy, .projectCopy {
         max-width: 100%;
-        font-size: 1.3em;
+        /* font-size: 1.3em; */
     }
     .project1, .project2, .project3, .personalDetailsCopy{
         display: flex;
         flex-wrap: wrap;
-        text-align: center;
+        /* text-align: center; */
+    }
+    .project1, .project3, .personalDetailsCopy{
+        margin-left: 10px;
+        margin-right: 10px;
     }
     .project2{
         flex-direction: column-reverse;
+        margin-right: 30px;
+        margin-left: 20px;
     }
     .projectTitle{
         display: flex;
         justify-content: center;
         font-size: 1.5em;
+    }
+    .projectImg{
+        max-width: 100%;
+    }
+    aside{
+        padding-left: 3px;
+        padding-right: 3px;
+        margin-bottom: 10px;
+        border-right:1px solid #001a2a;
+    }
+    .iconTitleContainer{
+        padding-bottom: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
 
@@ -398,17 +559,21 @@ footer {
     .projectCopy, .personalDetailsCopy {
         padding-left: 10px;
         padding-right: 10px;
+        font-size: 1.2em;
+        max-width: 100%;
+        text-align: center;
     }
     .personalDetailsContainer {
         display: flex;
         flex-wrap: wrap;
     }
+ 
     .personalDetailsCopy, .projectImg{
         max-width: 100%;
+        height: 250px;
     }
     .project1, .project2, .project3{
         display: flex;
-        flex-wrap: wrap;
         text-align: center;
     }
     .project2{
@@ -421,6 +586,17 @@ footer {
     }
     .projectsHeader{
         font-size: 2em;
+    }
+    aside{
+        padding-left: 3px;
+        padding-right: 3px;
+        margin-bottom: 10px;
+        border-right:1px solid #001a2a;
+    }
+    .iconTitleContainer{
+        padding-bottom: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
 
