@@ -75,8 +75,9 @@ svg{
 }
 
 .personalImage{
-    min-width: 300px;
+    min-width: 250px;
     max-height: 300px;
+    border-radius: 10% / 50%;
 }
 
 .projectsContainer, .projectContainer{
@@ -223,7 +224,6 @@ footer {
     }
     .personalImage{
         padding-top: 25px;
-        max-width: 40%
     }
     .projectTitle{
         display: flex;
