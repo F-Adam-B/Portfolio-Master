@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>Portfolio Adam Bradbury</title>
   <meta charset="utf-8">
@@ -8,9 +9,7 @@
   <meta name="description" content="Portfolio Adam Bradbury">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="keywords" content="HTML,CSS,XML,JavaScript,Front-End Web Development">
-  <link rel="icon" 
-      type="image/png" 
-      href="img/1_Primary_logo_on_transparent_127x71.png">
+  <link rel="icon" type="image/png" href="img/1_Primary_logo_on_transparent_127x71.png">
   <title>Portfolio Adam Bradbury | Software Engineer</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -22,80 +21,88 @@
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
   <div class="backgroundContainer">
-    <img class="backgroundImg" src="img/BandWroad.jpeg" alt="snow covered road">
+    <div class="nameWrap">
       <div class="fullName">
         <h1>Adam Bradbury</h1>
       </div>
-      <svg height="210" width="500">
-        <line x1="0" y1="0" x2="0" y2="800"/>
-      </svg>
       <div class="backgroundTitle">
-        <h1>Fullstack Web Developer</h1> 
+        <h1>Fullstack Web Developer</h1>
       </div>
+    </div>
   </div>
 
-  <h2 class="personalDetailsTitle"><u>About</u></h2>
+  <div class="personalDetailsTitle">
+    <u>About</u>
+  </div>
   <div id="about" class="personalDetailsContainer">
-      <div class="personalDetailsCopy">
-        <p class="personalCopyP1">"Hi, I'm Full-Stack web developer based in Denver. I love working on smart projects with smart people. Like most developers, I love to code and build things, but mostly my motivation to do so stems from a desire to make meaningful and lasting solutions that positively impact peoples' daily lives. I love builds that are responsive to the way users learn, think and live. My expertise is primarily in JavaScript. In addition to programming, my hobbies and interests range from outdoor enthusiast to international travel and development, having lived abroad for several years as a Peace Corps volunteer. My educational pursuits are as well wide-ranging. I've studied psychology, communications, and love to learn foreign languages."</p>
-      </div>
-        <img class="personalImage"src="img/personalImg.jpg">
+    <div class="personalDetailsCopy">
+      <p class="personalCopyP1">Hi, I'm Full-Stack web developer based in Denver. I love working on smart projects with smart people. Like most developers,
+        I love to code and build things, but mostly my motivation to do so stems from a desire to make meaningful and lasting
+        solutions that positively impact peoples' daily lives. I love builds that are responsive to the way users learn,
+        think and live. My expertise is primarily in JavaScript. In addition to programming, my hobbies and interests range
+        from outdoor enthusiast to international travel and development, having lived abroad for several years as a Peace
+        Corps volunteer. My educational pursuits are as well wide-ranging. I've studied psychology, communications, and love
+        to learn foreign languages.</p>
+    </div>
+    <div class=personalImageContainer>
+      <img class="personalImage" src="img/personalImg.jpg">
+    </div>
   </div>
 
-  <h1 class="projectsHeader"><u>Full Stack Projects</u></h1>
-  <div class="projectsContainer">
-      <div class="projectContainer">
-        <h4 class="projectTitle">Mood Cloud</h4>
-          <div class="project1">
-            <img class="projectImg" width="500px" height="400px" src="img/Mood-Cloud-take3.png">
-            <div class="projectCopyContainer">
-              <p class="projectCopy"> The purpose behind the Mood Cloud project is to raise student awareness about emotional intelligence and to provide a safe space for students to reach out to trusted teachers or leaders in times of emotional crisis or despair. Students often suffer from emotional instability making it difficult to identify emotional patterns over time. Mood Cloud helps. </p>
-              <p class="projectCopy"> Built in January 2018. Co-collaborators: Eddie Po, Nathan Garrett, and Quang Nguyen</p>
-              <div class="devIconsContainer">
-                <!-- <img class="iconSingle" src="img/nodejsLogo.png" width="100px" height ="100px" alt="node-icon">
-                <img class="iconSingle" src="img/reactLogo.png" width="100px" height ="100px" alt="node-icon"> -->
-              </div>
-              <div class="iconTitleContainer">
-                  <aside>Node</aside>
-                  <aside>React</aside>
-                  <aside>MongoDb</aside>
-                  <aside>jQuery</aside>
-                  <aside>Mongoose</aside>
-                  <aside>Express</aside>
-                  <aside>Mocha</aside>
-              </div>
-              <div class="projectBtn">
-                  <a type="button" class="button" href="http://mood-cloud.netlify.com/">Demo</a>
-                  <a type="button" class="button" href="https://github.com/F-Adam-B/moodCloudApp">Code</a>
-              </div>
-            </div>
-          </div>
+  <div class="projectsHeader">
+    <u>Full Stack Projects</u>
+  </div>
+
+  <h4 class="projectTitle">Mood Cloud</h4>
+  <div class="projectContainer">
+    <img class="projectImg" src="img/Mood-Cloud-take3.png">
+    <div class="projectCopyContainer">
+      <p class="projectCopy"> The purpose behind the Mood Cloud project is to raise student awareness about emotional intelligence and to provide
+        a safe space for students to reach out to trusted teachers or leaders in times of emotional crisis or despair. Students
+        often suffer from emotional instability making it difficult to identify emotional patterns over time. Mood Cloud
+        helps. </p>
+      <p class="projectCopy"> Built in January 2018. Co-collaborators: Eddie Po, Nathan Garrett, and Quang Nguyen</p>
+
+      <div class="iconTitleContainer">
+        <aside>Node</aside>
+        <aside>React</aside>
+        <aside>MongoDb</aside>
+        <aside>jQuery</aside>
+        <aside>Mongoose</aside>
+        <aside>Express</aside>
+        <aside>Mocha</aside>
       </div>
-      <div class="projectContainer">
-        <h4 id="projectTitleRight"class="projectTitle">Sitter Finder</h4>
-          <div class="project2">
-            <div class="projectCopyContainer">
-              <p class="projectCopy">Sitter Finder's mission is to make child care more affordable and accessible to parents. The technology we're building simplifies the process of finding a baby sitter for a special occasion or if needed on a regular schedule. 
-                The technology will also allow parents to search for certified sitters based on location.</p>
-                <p class="projectCopy"> Built in November 2017. Co-collaborator: Nathan Garrett</p>
-                <div class="iconTitleContainer">
-                    <aside>Node</aside>
-                    <aside>React</aside>
-                    <aside>MongoDb</aside>
-                    <aside>jQuery</aside>
-                    <aside>Mongoose</aside>
-                    <aside>Express</aside>
-                </div>
-              <div class="projectBtn">
-                  <a type="button" class="button" href="#">Demo</a>
-                  <a type="button" class="button" href="#">Code</a>
-              </div>
-            </div>
-            <img class="projectImg" src="img/babysitterLogo.png">
-          </div>
-        </div>
-      
-      <!-- <div class="projectContainer">
+      <div class="projectBtn">
+        <a type="button" class="button" href="http://mood-cloud.netlify.com/">Demo</a>
+        <a type="button" class="button" href="https://github.com/F-Adam-B/moodCloudApp">Code</a>
+      </div>
+    </div>
+  </div>
+
+  <h4 id="projectTitleRight" class="projectTitle">Sitter Finder</h4>
+  <div class="projectContainer">
+    <img class="projectImg" src="img/babysitterLogo.png">
+    <div class="projectCopyContainer">
+      <p class="projectCopy">Sitter Finder's mission is to make child care more affordable and accessible to parents. The technology we're building
+        simplifies the process of finding a baby sitter for a special occasion or if needed on a regular schedule. The technology
+        will also allow parents to search for certified sitters based on location.</p>
+      <p class="projectCopy"> Built in November 2017. Co-collaborator: Nathan Garrett</p>
+      <div class="iconTitleContainer">
+        <aside>Node</aside>
+        <aside>React</aside>
+        <aside>MongoDb</aside>
+        <aside>jQuery</aside>
+        <aside>Mongoose</aside>
+        <aside>Express</aside>
+      </div>
+      <div class="projectBtn">
+        <a type="button" class="button" href="#">Demo</a>
+        <a type="button" class="button" href="https://github.com/F-Adam-B/localSitterApp">Code</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div class="projectContainer">
           <h4 class="projectTitle">Project C Title</h4>
             <div class="project3">
               <img class="projectImg" src="http://via.placeholder.com/400x400">
@@ -108,20 +115,27 @@
               </div>
             </div>
         </div> -->
-    </div>
-  
-  
+  </div>
+
+
 
   <footer class="footerContainer">
     <div id="contact">
       <h3 id="letsTalk">Let's talk</h3>
-        <a class="socialIcon" href="https://github.com/F-Adam-B"><i class="fa fa-github fa-5x" aria-hidden="true"></i></a>
-        <a class="socialIcon" href="https://www.linkedin.com/in/adam-bradbury-6659ab35"><i class="fa fa-linkedin-square fa-5x" aria-hidden="true"></i></a>
-        <a class="socialIcon" href="mailto:f.adambrad@gmail.com"><i class="fa fa-envelope fa-5x" aria-hidden="true" ></i></a>
+      <a class="socialIcon" href="https://github.com/F-Adam-B">
+        <i class="fa fa-github fa-5x" aria-hidden="true"></i>
+      </a>
+      <a class="socialIcon" href="https://www.linkedin.com/in/adam-bradbury-6659ab35">
+        <i class="fa fa-linkedin-square fa-5x" aria-hidden="true"></i>
+      </a>
+      <a class="socialIcon" href="mailto:f.adambrad@gmail.com">
+        <i class="fa fa-envelope fa-5x" aria-hidden="true"></i>
+      </a>
     </div>
   </footer>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
-    <!-- <script type="text/javascript" src="js/myScript.js"></script> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+  <!-- <script type="text/javascript" src="js/myScript.js"></script> -->
 </body>
+
 </html>

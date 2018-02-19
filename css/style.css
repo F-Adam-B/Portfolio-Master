@@ -1,602 +1,243 @@
 body {
-   background: #efeff1;
-}
-
-.backgroundImg {
-    max-width: 100%;
+	background: #efeff1;
 }
 
 .button {
-    font-size: 1em;
-    text-decoration: none;
-    color: #001a2a;
-    padding: 12px 22px;
-    background: white;
-    transition: all 0.2s;
+	font-size: 1em;
+	text-decoration: none;
+	color: #001a2a;
+	padding: 12px 22px;
+	background: white;
+	transition: all 0.2s;
 }
 
 .button:hover {
-    background-color: #001a2a;
-    color: #efeff1;;
+	background-color: #001a2a;
+	color: #efeff1;
 }
 
-.backgroundContainer{
-    position: relative;
-    width: 100%;
-    text-align: center;
-    color: #efeff1;
-    font-size: 25px;
-    /* display: flex; */
+.backgroundContainer {
+	text-align: center;
+	color: #efeff1;
+	font-size: 25px;
+	height: 250px;
+	background: url(../img/BandWroad.jpeg) center center;
+	background-size: cover;
 }
 
-.fullName {
-    position: absolute;
-    bottom: 420px;
-    left: 172px;
+.nameWrap {
+	width: 320px;
+	margin: 0 auto;
+	padding-top: 85px;
 }
 
-svg{
-    max-width: 50px;
-    position: absolute;
-    top: 57.5%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    stroke: #efeff1;
-    stroke-width: 3;
+.nameWrap h1 {
+	/* margin-top: 100px; */
 }
 
+.fullName,
 .backgroundTitle {
-    position: absolute;
-    bottom: 250px;
-    right: 50px;
+	font-size: 0.5em;
+	color: #efeff1;
 }
 
-.projectCopy{
-    padding-left: 5%;
-    padding-right: 5%;
-    color: #001a2a;
+.personalDetailsTitle,
+.projectsHeader {
+	position: relative;
+	color: #001a2a;
+	text-align: center;
+	font-size: 30px;
+	padding-top: 20px;
 }
 
-.personalDetailsContainer {
-    display: flex;
-    justify-content: space-around;
-    margin-left: 10%;
-    margin-right: 10%;
+.personalDetailsCopy,
+.personalCopyP1 {
+	max-width: 100%;
+	font-size: 1.2em;
+	text-align: center;
+	color: #001a2a;
 }
 
-.personalDetailsCopy{
-    max-width: 50%;
-    padding-right: 5%;
-    padding-left: 5%;
+.personalImage {
+	width: 100%;
+	max-height: 350px;
+	border-radius: 10% / 50%;
 }
 
-.personalDetailsImg{
-    text-align: center;
+.projectsContainer,
+.projectContainer {
+	padding-bottom: 10px;
+	max-width: 100%;
+	text-align: center;
 }
 
-.personalImage{
-    min-width: 250px;
-    max-height: 300px;
-    border-radius: 10% / 50%;
-}
-
-.projectsContainer, .projectContainer{
-    padding-bottom: 20px;
-    max-width: 100%;
-}
-
-
-.project1, .project3{
-    display: flex;
-    margin-left: 5%;
-    margin-right: 3%;
-}
-
-.project2 {
-    display: flex;
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
-.projectTitle{
-    color: #001a2a
-}    aside{
-    padding-left: 3px;
-    padding-right: 3px;
-    margin-bottom: 10px;
-    border-right:1px solid #001a2a;
-}
-.iconTitleContainer{
-    padding-bottom: 20px;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-#projectTitleRight{
-    text-align: right;
-    color: #001a2a
-}
-
-.projectsHeader, .personalDetailsTitle{
-    text-align: center;
-    margin-bottom: -10px;
-    color: #001a2a;
-}
-
-.projectCopy{
-    text-align: left;
-}
-
-.projectLink {
-    padding-bottom: 10px;
-    margin: 50px 10px;
+.projectTitle {
+	color: #001a2a;
+	font-size: 20px;
+	padding-bottom: 10px;
+	border-bottom: #001a2a 1px solid;
+	margin-right: 10%;
+	margin-left: 10%;
 }
 
 .projectImg {
-    width: 3ems;
-    height: 2ems;
+	width: 100%;
+	height: 200px;
+	margin-top: 23px;
 }
 
-.devIconsContainer, .iconTitleContainer{
-    display: flex;
+.projectCopyContainer,
+.projectCopy {
+	text-align: center;
+	font-size: 1.2em;
+}
+
+aside {
+	padding-left: 3px;
+	padding-right: 3px;
+	margin-bottom: 10px;
+	border-right: 1px solid #001a2a;
+}
+.iconTitleContainer {
+	padding-bottom: 20px;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.projectBtn {
+	margin-bottom: 20px;
+}
+.projectLink {
+	padding-bottom: 10px;
+	margin: 50px 10px;
+}
+
+/* .project2Container {
+	display: flex;
+	flex-direction: row-reverse;
+} */
+
+.devIconsContainer,
+.iconTitleContainer {
+	display: flex;
 }
 .iconSingle {
-    flex-direction: column;
-    width: 20px;
-    height: 20px;
+	flex-direction: column;
+	width: 20px;
+	height: 20px;
 }
 
-aside{
-    padding-left: 5px;
-    padding-right: 5px;
-    color: #001a2a;
-    border-right:1px solid #001a2a;
+aside {
+	padding-left: 5px;
+	padding-right: 5px;
+	color: #001a2a;
+	border-right: 1px solid #001a2a;
 }
 
 footer {
-    display: flex;
-    max-width: 100%;
-    justify-content: center;
-    text-align: center;
-    font-size: 20px;
-    background-color: #001a2a;
-    padding: 3%;
-    color: #efeff1;
+	display: flex;
+	max-width: 100%;
+	justify-content: center;
+	text-align: center;
+	font-size: 20px;
+	background-color: #001a2a;
+	padding: 3%;
+	color: #efeff1;
 }
 
 .socialIcon {
-    padding-left: 20px;
-    padding-right: 20px;
-    color: #efeff1;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #efeff1;
 }
 
-@media only screen and (max-width: 1845px){
-    svg {
-        position: absolute;
-        top: 57.5%;
-    }
-    .fullName{
-        position: absolute;
-        bottom: 520px;
-        left: 220px;
-        font-size: 30px;
-    }
-    .backgroundTitle{
-        position: absolute;
-        bottom: 360px;
-        right: 150px;
-        font-size: 30px;
-    }
-    .projectCopy, .personalDetailsCopy {
-        font-size: 1.5em;
-    }
-    .personalDetailsTitle, .projectsHeader {
-        font-size: 35px;
-    }
-    aside{
-        padding-left: 3px;
-        padding-right: 3px;
-        margin-bottom: 10px;
-        border-right:1px solid #001a2a;
-    }
-    .iconTitleContainer{
-        padding-bottom: 20px;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
+@media only screen and (min-width: 380px) {
+	.personalImageContainer {
+		display: flex;
+		justify-content: center;
+	}
+	.personalImage {
+		max-width: 250px;
+		height: 300px;
+	}
 }
 
-@media only screen and (max-width: 1600px){
-    svg {
-        position: absolute;
-        top: 56%
-    }
-    .fullName{
-        position: absolute;
-        bottom: 490px;
-        left: 220px;
-    }
-    .backgroundTitle{
-        position: absolute;
-        bottom: 320px;
-        right: 120px;
-    }
-    .personalImage{
-        padding-top: 25px;
-    }
-    .projectTitle{
-        display: flex;
-        justify-content: center;
-        font-size: 1.6em;
-    }
-    .personalDetailsCopy, .projectCopy {
-        max-width: 100%;
-        font-size: 1.3em;
-    }
-    .projectImg{
-        max-width: 10ems;
-        padding-top: 20px;
-    }
-    .projectCopy, .personalDetailsCopy {
-        font-size: 1;
-    }
-    .personalDetailsTitle, .projectsHeader {
-        font-size: 1.8em;
-    }
-    .projectBtn{
-        text-align: center;
-    }
-    aside{
-        padding-left: 3px;
-        padding-right: 3px;
-        margin-bottom: 10px;
-        border-right:1px solid #001a2a;
-    }
-    .iconTitleContainer{
-        padding-bottom: 20px;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
+@media only screen and (min-width: 400px) {
+	.projectTitle {
+		text-align: center;
+	}
+	.projectImg {
+		width: 350px;
+		height: 200px;
+	}
 }
 
-@media only screen and (max-width: 1310px){
-    svg {
-        position: absolute;
-        top: 54%
-    }
-    .fullName{
-        position: absolute;
-        bottom: 415px;
-        left: 182px;
-        font-size: 1em;
-    }
-    .backgroundTitle{
-        position: absolute;
-        bottom: 240px;
-        right: 58px;
-        font-size: 1em;
-    }
-
-    .personalDetailsContainer{
-        margin-left: 200px;
-        margin-right: 200px;
-    }
-
-    .projectTitle{
-        margin-bottom: 10px;
-        margin-top: 50px;
-    }
-    aside{
-        padding-left: 5px;
-        padding-right: 5px;
-        margin-bottom: 10px;
-        color: #001a2a;
-        border-right:1px solid #001a2a;
-    }
-
-    .projectBtn{
-        padding-top: 50px;
-    }
-    .iconTitleContainer{
-        padding-bottom: 20px;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
+@media only screen and (min-width: 768px) {
+	.projectContainer {
+		display: flex;
+		margin-right: 3%;
+	}
+	.backgroundContainer {
+		height: 350px;
+	}
+	.nameWrap {
+		padding-top: 115px;
+		width: 450px;
+	}
+	.fullName,
+	.backgroundTitle {
+		font-size: 0.7em;
+	}
 }
 
-@media only screen and (max-width: 1200px){
-    svg {
-        position: absolute;
-        top: 53%
-    }
-    .fullName{
-        position: absolute;
-        bottom: 400px;
-        left: 150px;
-    }
-    .backgroundTitle{
-        position: absolute;
-        bottom: 222px;
-        right: 44px;
-    }
-    aside{
-        padding-left: 3px;
-        padding-right: 3px;
-        margin-bottom: 10px;
-        border-right:1px solid #001a2a;
-    }
-    .iconTitleContainer{
-        padding-bottom: 20px;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
+@media only screen and (min-width: 1024px) {
+	.backgroundContainer {
+		height: 450px;
+	}
+	.nameWrap {
+		padding-top: 135px;
+		width: 750px;
+	}
+	.fullName,
+	.backgroundTitle {
+		font-size: 1em;
+	}
+	.personalDetailsContainer {
+		display: flex;
+	}
+	.personalDetailsCopy {
+		width: 50%;
+		margin-left: 3%;
+	}
+	.personalCopyP1 {
+		text-align: left;
+		margin-left: 3%;
+	}
+	.personalImage {
+		margin: auto;
+		margin-left: 60%;
+	}
+	.projectsHeader {
+		padding-top: 40px;
+	}
+	.projectTitle {
+		font-size: 2em;
+	}
 }
 
-@media only screen and (max-width: 1024px){
-    svg {
-        position: absolute;
-        top: 50.5%;
-    }
-    .fullName{
-        position: absolute;
-        bottom: 340px;
-        left: 135px;
-        font-size: .9em;
-    }
-    .backgroundTitle{
-        position: absolute;
-        bottom: 188px;
-        right: 25px;
-        font-size: .9em;
-    }
-    .projectsContainer{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .personalImage{
-        padding-top: 25px;
-        max-width: 40%;
-    }
-
-    .projectTitle{
-        display: flex;
-        justify-content: center;
-        font-size: 1.6em;
-    }
-
-    .personalDetailsCopy, .projectCopy {
-        max-width: 100%;
-        font-size: 1.3em;
-        padding-right: 10px;
-    }
-
-    .projectCopyContainer {
-        max-width: 100%;
-        justify-content: center;
-    }
-    .projectBtn{
-        text-align: center;
-    }
-    aside{
-        padding-left: 3px;
-        padding-right: 3px;
-        margin-bottom: 10px;
-        border-right:1px solid #001a2a;
-    }
-    .iconTitleContainer{
-        padding-bottom: 20px;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
+@media only screen and (min-width: 1599px) {
+	.personalDetailsContainer {
+		margin-left: 200px;
+	}
+	.projectContainer {
+		margin-left: 200px;
+		margin-right: 200px;
+	}
+	.projectCopy {
+		text-align: left;
+		margin-left: 20px;
+	}
+	.projectBtn {
+		text-align: center;
+	}
 }
-
-@media only screen and (max-width: 768px){
-    svg {
-        position: absolute;
-        top: 46%;
-    }
-    .fullName {
-        position: absolute;
-        bottom: 259px;
-        left: 90px;
-        font-size: .65em;
-    }
-    .backgroundTitle {
-        position: absolute;
-        bottom: 149px;
-        right: 28px;
-        font-size: .65em;
-    }
-
-    .personalDetailsContainer {
-        display: flex;
-        flex-wrap: wrap;
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-
-    .personalDetailsTitle, .projectsHeader{
-        font-size: 1.6em;
-    }
-
-    .personalImage{
-        padding-top: 25px;
-        max-width: 40%;
-    }
-
-    .projectTitle{
-        display: flex;
-        justify-content: center;
-        font-size: 1.3em;
-    }
-
-    .personalDetailsCopy, .projectCopy {
-        max-width: 100%;
-        font-size: 1.3em;
-        padding-right: 10px;
-    }
-
-    .projectImg{
-        max-width: 300px;
-        height: 250px;
-    }
-
-    .projectCopyContainer {
-        max-width: 100%;
-        justify-content: center;
-    }
-    
-    .projectBtn{
-        text-align: center;
-    }
-
-    aside{
-        padding-left: 3px;
-        padding-right: 3px;
-        margin-bottom: 10px;
-        border-right:1px solid #001a2a;
-    }
-    .iconTitleContainer{
-        padding-bottom: 20px;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-}
-
-@media only screen and (max-width: 480px){
-    svg {
-        position: absolute;
-        top: 32%;
-        left: 55%;
-    }
-    .fullName {
-        position: absolute;
-        bottom: 152px;
-        left: 82px;
-        font-size: .40em;
-    }
-    .backgroundTitle {
-        position: absolute;
-        bottom: 90px;
-        right: 10px;
-        font-size: .40em;
-    }
-    .projectCopy, .personalDetailsCopy {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    .personalDetailsContainer {
-        display: flex;
-        flex-wrap: wrap;
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-    .personalDetailsTitle, projectsHeader{
-        font-size: 1.5em;
-    }
-    .personalDetailsCopy, .projectCopy {
-        max-width: 100%;
-        /* font-size: 1.3em; */
-    }
-    .project1, .project2, .project3, .personalDetailsCopy{
-        display: flex;
-        flex-wrap: wrap;
-        /* text-align: center; */
-    }
-    .project1, .project3, .personalDetailsCopy{
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-    .project2{
-        flex-direction: column-reverse;
-        margin-right: 30px;
-        margin-left: 20px;
-    }
-    .projectTitle{
-        display: flex;
-        justify-content: center;
-        font-size: 1.5em;
-    }
-    .projectImg{
-        max-width: 100%;
-    }
-    aside{
-        padding-left: 3px;
-        padding-right: 3px;
-        margin-bottom: 10px;
-        border-right:1px solid #001a2a;
-    }
-    .iconTitleContainer{
-        padding-bottom: 20px;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-}
-
-@media only screen and (max-width: 320px){
-    svg {
-        /* position: absolute; */
-        /* top: 18%; */
-        /* left: 164px; */
-        visibility: hidden;
-    }
-    .fullName {
-        position: absolute;
-        bottom: 98px;
-        left: 10em;
-        /* margin-left: auto; */
-        font-size: .35em;
-    }
-    .backgroundTitle {
-        position: absolute;
-        bottom: 56px;
-        right: 60px;
-        font-size: .35em;
-    }
-    .projectCopy, .personalDetailsCopy {
-        padding-left: 10px;
-        padding-right: 10px;
-        font-size: 1.2em;
-        max-width: 100%;
-        text-align: center;
-    }
-    .personalDetailsContainer {
-        display: flex;
-        flex-wrap: wrap;
-    }
- 
-    .personalDetailsCopy, .projectImg{
-        max-width: 100%;
-        height: 250px;
-    }
-    .project1, .project2, .project3{
-        display: flex;
-        text-align: center;
-    }
-    .project2{
-        flex-direction: column-reverse;
-    }
-    .projectTitle{
-        display: flex;
-        justify-content: center;
-        font-size: 2em;
-    }
-    .projectsHeader{
-        font-size: 2em;
-    }
-    aside{
-        padding-left: 3px;
-        padding-right: 3px;
-        margin-bottom: 10px;
-        border-right:1px solid #001a2a;
-    }
-    .iconTitleContainer{
-        padding-bottom: 20px;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-}
-
