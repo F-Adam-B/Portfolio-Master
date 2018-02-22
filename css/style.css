@@ -48,6 +48,7 @@ body {
 	text-align: center;
 	font-size: 30px;
 	padding-top: 20px;
+	margin-top: 30px;
 }
 
 .personalDetailsCopy,
@@ -73,21 +74,23 @@ body {
 
 .projectTitle {
 	color: #001a2a;
-	font-size: 20px;
+	font-size: 25px;
 	padding-bottom: 10px;
 	border-bottom: #001a2a 1px solid;
 	margin-right: 10%;
 	margin-left: 10%;
+	margin-bottom: 0px;
+	text-align: center;
 }
 
 .projectImg {
-	width: 100%;
-	height: 200px;
-	margin-top: 23px;
+	width: 320px;
+	height: 280px;
 }
 
 .projectCopyContainer,
-.projectCopy {
+.projectCopy,
+.collaborators {
 	text-align: center;
 	font-size: 1.2em;
 }
@@ -111,11 +114,6 @@ aside {
 	padding-bottom: 10px;
 	margin: 50px 10px;
 }
-
-/* .project2Container {
-	display: flex;
-	flex-direction: row-reverse;
-} */
 
 .devIconsContainer,
 .iconTitleContainer {
@@ -168,7 +166,7 @@ footer {
 	}
 	.projectImg {
 		width: 350px;
-		height: 200px;
+		height: 350px;
 	}
 }
 
@@ -187,6 +185,12 @@ footer {
 	.fullName,
 	.backgroundTitle {
 		font-size: 0.7em;
+	}
+	.projectCopy {
+		margin-top: 70px;
+	}
+	.projectImg {
+		height: 325px;
 	}
 }
 
@@ -223,21 +227,56 @@ footer {
 	.projectTitle {
 		font-size: 2em;
 	}
+	.projectCopyContainer {
+		margin-left: 20px;
+	}
+	.projectCopy {
+		text-align: left;
+	}
 }
 
 @media only screen and (min-width: 1599px) {
 	.personalDetailsContainer {
 		margin-left: 200px;
 	}
+
+	.personalDetailsTitle {
+		margin-top: 50px;
+	}
+
+	.personalDetailsTitle,
+	.projectsHeader {
+		font-size: 40px;
+	}
+
 	.projectContainer {
-		margin-left: 200px;
-		margin-right: 200px;
+		margin-left: 300px;
+		margin-right: 300px;
 	}
 	.projectCopy {
 		text-align: left;
 		margin-left: 20px;
+		margin-top: 70px;
 	}
 	.projectBtn {
 		text-align: center;
+	}
+	.projectsHeader {
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+	.projectTitle {
+		margin-right: 15%;
+		margin-left: 15%;
+		margin-top: 100px;
+	}
+	.footerContainer {
+		margin-top: 50px;
+	}
+	.backgroundContainer {
+		height: 850px;
+	}
+	.nameWrap {
+		padding-top: 365px;
 	}
 }
