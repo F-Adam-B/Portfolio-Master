@@ -232,6 +232,14 @@ footer {
 	}
 	.projectCopy {
 		text-align: left;
+		margin-top: 89px;
+	}
+	.projectImg {
+		height: 400px;
+		width: 400px;
+	}
+	.projectBtn {
+		margin-top: 10px;
 	}
 }
 
@@ -256,7 +264,7 @@ footer {
 	.projectCopy {
 		text-align: left;
 		margin-left: 20px;
-		margin-top: 70px;
+		margin-top: 130px;
 	}
 	.projectBtn {
 		text-align: center;
@@ -278,5 +286,9 @@ footer {
 	}
 	.nameWrap {
 		padding-top: 365px;
+	}
+	.projectImg {
+		height: 600px;
+		width: 600px;
 	}
 }
