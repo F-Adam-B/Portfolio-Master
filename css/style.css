@@ -57,6 +57,8 @@ body {
 	font-size: 1.2em;
 	text-align: center;
 	color: #001a2a;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 .personalImage {
@@ -93,6 +95,8 @@ body {
 .collaborators {
 	text-align: center;
 	font-size: 1.2em;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 aside {
@@ -155,7 +159,7 @@ footer {
 		justify-content: center;
 	}
 	.personalImage {
-		max-width: 250px;
+		max-width: 300px;
 		height: 300px;
 	}
 }
