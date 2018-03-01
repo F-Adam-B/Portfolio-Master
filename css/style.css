@@ -1,5 +1,8 @@
 body {
 	background: #efeff1;
+	/* font-family: 'Slabo 13px', Serif; */
+	font-family: 'Old Standard TT', Serif;
+	/* font-family: 'Chivo', Sans-Serif; */
 }
 
 .button {
@@ -55,6 +58,9 @@ body {
 .personalCopyP1 {
 	max-width: 100%;
 	font-size: 1.2em;
+	/* font-family: 'Lato', Sans-Serif !important; */
+	font-family: 'Rubik', Sans-Serif !important;
+	/* font-family: 'Crimson Text', Serif !important; */
 	text-align: center;
 	color: #001a2a;
 	margin-left: 10px;
@@ -97,6 +103,7 @@ body {
 	font-size: 1.2em;
 	margin-left: 10px;
 	margin-right: 10px;
+	font-family: 'Rubik', Sans-Serif !important;
 }
 
 aside {
@@ -109,10 +116,12 @@ aside {
 	padding-bottom: 20px;
 	flex-wrap: wrap;
 	justify-content: center;
+	font-family: 'Rubik', Sans-Serif !important;
 }
 
 .projectBtn {
 	margin-bottom: 20px;
+	font-family: 'Rubik', Sans-Serif !important;
 }
 .projectLink {
 	padding-bottom: 10px;
@@ -145,6 +154,7 @@ footer {
 	background-color: #001a2a;
 	padding: 3%;
 	color: #efeff1;
+	font-family: 'Rubik', Sans-Serif !important;
 }
 
 .socialIcon {
