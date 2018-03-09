@@ -103,6 +103,7 @@ body {
   font-size: 1.2em;
   margin-left: 10px;
   margin-right: 10px;
+  color: #001a2a;
   font-family: "Rubik", Sans-Serif !important;
 }
 
@@ -238,6 +239,7 @@ footer {
   .personalCopyP1 {
     text-align: left;
     margin-left: 3%;
+    font-size: 1.1em;
   }
   .personalImage {
     margin: auto;
