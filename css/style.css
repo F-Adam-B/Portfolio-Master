@@ -1,322 +1,326 @@
 body {
-  background: #efeff1;
-  /* font-family: 'Slabo 13px', Serif; */
-  font-family: "Old Standard TT", Serif;
-  /* font-family: 'Chivo', Sans-Serif; */
+	background: #efeff1;
+	/* font-family: 'Slabo 13px', Serif; */
+	font-family: 'Old Standard TT', Serif;
+	/* font-family: 'Chivo', Sans-Serif; */
 }
 
 .button {
-  font-size: 1em;
-  text-decoration: none;
-  color: #001a2a;
-  padding: 12px 22px;
-  background: white;
-  transition: all 0.2s;
+	font-size: 1em;
+	text-decoration: none;
+	color: #001a2a;
+	padding: 12px 22px;
+	background: white;
+	transition: all 0.2s;
 }
 
 .button:hover {
-  background-color: #001a2a;
-  color: #efeff1;
+	background-color: #001a2a;
+	color: #efeff1;
 }
 
 .backgroundContainer {
-  text-align: center;
-  color: #efeff1;
-  font-size: 25px;
-  height: 250px;
-  background: url(../img/BandWroad.jpeg) center center;
-  background-size: cover;
+	text-align: center;
+	color: #efeff1;
+	font-size: 25px;
+	height: 250px;
+	background: url(../img/BandWroad.jpeg) center center;
+	background-size: cover;
 }
 
 .nameWrap {
-  width: 320px;
-  margin: 0 auto;
-  padding-top: 85px;
+	width: 320px;
+	margin: 0 auto;
+	padding-top: 85px;
 }
 
 .nameWrap h1 {
-  /* margin-top: 100px; */
+	/* margin-top: 100px; */
 }
 
 .fullName,
 .backgroundTitle {
-  font-size: 0.5em;
-  color: #efeff1;
+	font-size: 0.5em;
+	color: #efeff1;
 }
 
 .personalDetailsTitle,
 .projectsHeader {
-  position: relative;
-  color: #001a2a;
-  text-align: center;
-  font-size: 30px;
-  padding-top: 20px;
-  margin-top: 30px;
+	position: relative;
+	color: #001a2a;
+	text-align: center;
+	font-size: 30px;
+	padding-top: 20px;
+	margin-top: 30px;
 }
 
 .personalDetailsCopy,
 .personalCopyP1 {
-  max-width: 100%;
-  font-size: 1.2em;
-  /* font-family: 'Lato', Sans-Serif !important; */
-  font-family: "Rubik", Sans-Serif !important;
-  /* font-family: 'Crimson Text', Serif !important; */
-  text-align: center;
-  color: #001a2a;
-  margin-left: 10px;
-  margin-right: 10px;
+	max-width: 100%;
+	font-size: 1.2em;
+	/* font-family: 'Lato', Sans-Serif !important; */
+	font-family: 'Rubik', Sans-Serif !important;
+	/* font-family: 'Crimson Text', Serif !important; */
+	text-align: center;
+	color: #001a2a;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.imageDiv {
+	display: flex;
 }
 
 .personalImage {
-  width: 100%;
-  max-height: 350px;
-  border-radius: 10% / 50%;
+	width: 100%;
+	max-height: 350px;
+	border-radius: 10% / 50%;
 }
 
 .projectsContainer,
 .projectContainer {
-  padding-bottom: 10px;
-  max-width: 100%;
-  text-align: center;
+	padding-bottom: 10px;
+	max-width: 100%;
+	text-align: center;
 }
 
 .projectTitle {
-  color: #001a2a;
-  font-size: 25px;
-  padding-bottom: 10px;
-  border-bottom: #001a2a 1px solid;
-  margin-right: 10%;
-  margin-left: 10%;
-  margin-bottom: 0px;
-  text-align: center;
+	color: #001a2a;
+	font-size: 25px;
+	padding-bottom: 10px;
+	border-bottom: #001a2a 1px solid;
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-bottom: 0px;
+	text-align: center;
 }
 
 .projectImg {
-  width: 320px;
-  height: 280px;
+	width: 320px;
+	height: 280px;
 }
 
 .projectCopyContainer,
 .projectCopy,
 .collaborators {
-  text-align: center;
-  font-size: 1.2em;
-  margin-left: 10px;
-  margin-right: 10px;
-  color: #001a2a;
-  font-family: "Rubik", Sans-Serif !important;
+	text-align: center;
+	font-size: 1.2em;
+	margin-left: 10px;
+	margin-right: 10px;
+	color: #001a2a;
+	font-family: 'Rubik', Sans-Serif !important;
 }
 
 aside {
-  padding-left: 3px;
-  padding-right: 3px;
-  margin-bottom: 10px;
-  border-right: 1px solid #001a2a;
+	padding-left: 3px;
+	padding-right: 3px;
+	margin-bottom: 10px;
+	border-right: 1px solid #001a2a;
 }
 .iconTitleContainer {
-  padding-bottom: 20px;
-  flex-wrap: wrap;
-  justify-content: center;
-  font-family: "Rubik", Sans-Serif !important;
+	padding-bottom: 20px;
+	flex-wrap: wrap;
+	justify-content: center;
+	font-family: 'Rubik', Sans-Serif !important;
 }
 
 .projectBtn {
-  margin-bottom: 20px;
-  font-family: "Rubik", Sans-Serif !important;
+	margin-bottom: 20px;
+	font-family: 'Rubik', Sans-Serif !important;
 }
 .projectLink {
-  padding-bottom: 10px;
-  margin: 50px 10px;
+	padding-bottom: 10px;
+	margin: 50px 10px;
 }
 
 .devIconsContainer,
 .iconTitleContainer {
-  display: flex;
+	display: flex;
 }
 .iconSingle {
-  flex-direction: column;
-  width: 20px;
-  height: 20px;
+	flex-direction: column;
+	width: 20px;
+	height: 20px;
 }
 
 aside {
-  padding-left: 5px;
-  padding-right: 5px;
-  color: #001a2a;
-  border-right: 1px solid #001a2a;
+	padding-left: 5px;
+	padding-right: 5px;
+	color: #001a2a;
+	border-right: 1px solid #001a2a;
 }
 
 footer {
-  display: flex;
-  max-width: 100%;
-  justify-content: center;
-  text-align: center;
-  font-size: 20px;
-  background-color: #001a2a;
-  padding: 3%;
-  color: #efeff1;
-  font-family: "Rubik", Sans-Serif !important;
+	display: flex;
+	max-width: 100%;
+	justify-content: center;
+	text-align: center;
+	font-size: 20px;
+	background-color: #001a2a;
+	padding: 3%;
+	color: #efeff1;
+	font-family: 'Rubik', Sans-Serif !important;
 }
 
 .socialIcon {
-  padding-left: 20px;
-  padding-right: 20px;
-  color: #efeff1;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #efeff1;
 }
 
 @media only screen and (min-width: 380px) {
-  .personalImageContainer {
-    display: flex;
-    justify-content: center;
-  }
-  .personalImage {
-    max-width: 300px;
-    height: 300px;
-  }
+	.personalImageContainer {
+		display: flex;
+		justify-content: center;
+	}
+	.personalImage {
+		max-width: 300px;
+		height: 300px;
+	}
 }
 
 @media only screen and (min-width: 400px) {
-  .projectTitle {
-    text-align: center;
-  }
-  .projectImg {
-    width: 350px;
-    height: 350px;
-  }
+	.projectTitle {
+		text-align: center;
+	}
+	.projectImg {
+		width: 350px;
+		height: 350px;
+	}
 }
 
 @media only screen and (min-width: 768px) {
-  .projectContainer {
-    display: flex;
-    margin-right: 6%;
-    margin-left: 6%;
-    font-size: 12px;
-  }
+	.projectContainer {
+		display: flex;
+		margin-right: 6%;
+		margin-left: 6%;
+		font-size: 12px;
+	}
 
-  .projectContainerRight {
-    display: flex;
-    flex-direction: row-reverse;
-  }
-  .backgroundContainer {
-    height: 350px;
-  }
-  .nameWrap {
-    padding-top: 115px;
-    width: 450px;
-  }
-  .fullName,
-  .backgroundTitle {
-    font-size: 0.7em;
-  }
-  .projectCopy {
-    margin-top: 70px;
-    text-align: left;
-  }
-  .projectImg {
-    height: 325px;
-  }
+	.projectContainerRight {
+		display: flex;
+		flex-direction: row-reverse;
+	}
+	.backgroundContainer {
+		height: 350px;
+	}
+	.nameWrap {
+		padding-top: 115px;
+		width: 450px;
+	}
+	.fullName,
+	.backgroundTitle {
+		font-size: 0.7em;
+	}
+	.projectCopy {
+		margin-top: 70px;
+		text-align: left;
+	}
+	.projectImg {
+		height: 325px;
+	}
 }
 
 @media only screen and (min-width: 1024px) {
-  .backgroundContainer {
-    height: 450px;
-  }
-  .nameWrap {
-    padding-top: 135px;
-    width: 750px;
-  }
-  .fullName,
-  .backgroundTitle {
-    font-size: 1em;
-  }
-  .personalDetailsContainer {
-    display: flex;
-  }
-  .personalDetailsCopy {
-    width: 50%;
-    margin-left: 3%;
-  }
-  .personalCopyP1 {
-    text-align: left;
-    margin-left: 3%;
-    font-size: 1.1em;
-  }
-  .personalImage {
-    margin: auto;
-    margin-left: 60%;
-  }
-  .projectsHeader {
-    padding-top: 40px;
-  }
-  .projectTitle {
-    font-size: 2em;
-  }
-  .projectCopyContainer {
-    margin-left: 20px;
-  }
-  .projectCopy {
-    text-align: left;
-    margin-top: 89px;
-  }
-  .projectImg {
-    height: 400px;
-    width: 400px;
-  }
-  .projectBtn {
-    margin-top: 10px;
-  }
-  .projectContainer {
-    font-size: 15px;
-  }
+	.backgroundContainer {
+		height: 450px;
+	}
+	.nameWrap {
+		padding-top: 135px;
+		width: 750px;
+	}
+	.fullName,
+	.backgroundTitle {
+		font-size: 1em;
+	}
+	.personalDetailsContainer {
+		display: flex;
+	}
+	.personalDetailsCopy {
+		width: 50%;
+		margin-left: 3%;
+	}
+	.personalCopyP1 {
+		text-align: left;
+		margin-left: 3%;
+		font-size: 1.1em;
+	}
+	.personalImage {
+		margin: auto;
+		margin-left: 60%;
+	}
+	.projectsHeader {
+		padding-top: 40px;
+	}
+	.projectTitle {
+		font-size: 2em;
+	}
+	.projectCopyContainer {
+		margin-left: 20px;
+	}
+	.projectCopy {
+		text-align: left;
+		margin-top: 89px;
+	}
+	.projectImg {
+		height: 400px;
+		width: 400px;
+	}
+	.projectBtn {
+		margin-top: 10px;
+	}
+	.projectContainer {
+		font-size: 15px;
+	}
 }
 
 @media only screen and (min-width: 1599px) {
-  .personalDetailsContainer {
-    margin-left: 200px;
-  }
+	.personalDetailsContainer {
+		margin-left: 200px;
+	}
 
-  .personalDetailsTitle {
-    margin-top: 50px;
-  }
+	.personalDetailsTitle {
+		margin-top: 50px;
+	}
 
-  .personalDetailsTitle,
-  .projectsHeader {
-    font-size: 40px;
-  }
+	.personalDetailsTitle,
+	.projectsHeader {
+		font-size: 40px;
+	}
 
-  .projectContainer {
-    margin-left: 300px;
-    margin-right: 300px;
-    font-size: 18px;
-  }
-  .projectCopy {
-    text-align: left;
-    margin-left: 20px;
-    margin-top: 130px;
-  }
-  .projectBtn {
-    text-align: center;
-  }
-  .projectsHeader {
-    margin-top: 50px;
-    margin-bottom: 50px;
-  }
-  .projectTitle {
-    margin-right: 15%;
-    margin-left: 15%;
-    margin-top: 100px;
-  }
-  .footerContainer {
-    margin-top: 50px;
-  }
-  .backgroundContainer {
-    height: 850px;
-  }
-  .nameWrap {
-    padding-top: 365px;
-  }
-  .projectImg {
-    height: 600px;
-    width: 600px;
-  }
+	.projectContainer {
+		margin-left: 300px;
+		margin-right: 300px;
+		font-size: 18px;
+	}
+	.projectCopy {
+		text-align: left;
+		margin-left: 20px;
+		margin-top: 130px;
+	}
+	.projectBtn {
+		text-align: center;
+	}
+	.projectsHeader {
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+	.projectTitle {
+		margin-right: 15%;
+		margin-left: 15%;
+		margin-top: 100px;
+	}
+	.footerContainer {
+		margin-top: 50px;
+	}
+	.backgroundContainer {
+		height: 850px;
+	}
+	.nameWrap {
+		padding-top: 365px;
+	}
+	.projectImg {
+		height: 600px;
+		width: 600px;
+	}
 }
